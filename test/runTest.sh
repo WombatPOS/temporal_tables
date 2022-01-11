@@ -10,7 +10,7 @@ TESTS="
   no_history_table no_history_system_period no_system_period
   invalid_system_period_values invalid_system_period invalid_types
   versioning upper_case structure combinations
-  different_schema unchanged_values unchanged_version_values
+  different_schema unchanged_values unchanged_version_values set_system_time invalid_set_system_time
   non_equality_types non_equality_types_unchanged_values"
 
 for name in $TESTS; do
